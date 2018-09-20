@@ -19,12 +19,12 @@ SSH operates on TCP port 22
 
 to check if you got an SSH-key open terminal and enter
 
-``ls -al ~/.ssh``
+`ls -al ~/.ssh`
 
 
 to create a SSH-key enter in the terminal:
 
-``ssh-keygen -t rsa -b 4096 "E-mail"``
+`ssh-keygen -t rsa -b 4096 "E-mail"`
 
 enter than enter a passphrase
 

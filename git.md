@@ -2,18 +2,18 @@
 
 use the help command for all common git commands
 
-``git help`` 
+`git help` 
 
 or use this for every command with git
 
-``git help -a``
+`git help -a`
 
 create a new repository
-``git init``
+`git init`
 
 get a repository from git 
 
-``git clone git@github.com:"name"``
+`git clone git@github.com:"name"`
 
 show status of the files
 
@@ -25,7 +25,7 @@ add a file to next commit
 
 commit files
 
-``git commit -m "Message"``
+`git commit -m "Message"`
 
 push files
 
@@ -37,7 +37,7 @@ shows all branches
 
 create a branch
 
-``git checkout -b "name"``
+`git checkout -b "name"`
 
 change branch
 
@@ -45,7 +45,7 @@ change branch
 
 delete a branch 
 
-``git branch -d "name"``
+`git branch -d "name"`
 
 push new branch to Github
 
