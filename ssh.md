@@ -15,7 +15,7 @@ Generates unique value of fixed length
 
 SSH operates on TCP port 22
 
-# Checking & Creating SSH-Key
+### Checking & Creating SSH-Key
 
 to check if you got an SSH-key open terminal and enter
 
@@ -29,7 +29,7 @@ to create a SSH-key enter in the terminal:
 enter than enter a passphrase
 
 
-#Adding a SSH-Key to the ssh-agent
+### Adding a SSH-Key to the ssh-agent
 
 start the ssg-agent
 

@@ -1,4 +1,4 @@
-#HTTP - Hypertext Transfer Protocol
+# HTTP - Hypertext Transfer Protocol
 
 stateless, application-layer protocol for communicating between distributed systems
 
@@ -24,7 +24,7 @@ HTTPS - default Port 443
 
 SSL uses RSA and public.key cryptography.
 
-####Certificates
+#### Certificates
 Certificates are needed for HTTPS
 They contain:
 * the certificate issuer
@@ -34,7 +34,7 @@ They contain:
 * the Certification Authority Signature, using the specified signing algorithm
 Client compares Certificate from website with list of known CAs. If CA is unknown a warning will show up.
 
-####Request:
+#### Request:
 * resolve IP address from host name via DNS
 * establish a connection with the server
 * send a request
@@ -42,7 +42,7 @@ Client compares Certificate from website with list of known CAs. If CA is unknow
 * close connection
 
 
-####Response:
+#### Response:
 * establishing a socket to start listening on port 80 (or some other port)
 * receiving the request and parsing the message
 * processing the response
@@ -51,8 +51,8 @@ Client compares Certificate from website with list of known CAs. If CA is unknow
 * close the connection if a Connection: close request header was found
 
 
-###Fehler-Codes
-#####2xx: Successful
+### Fehler-Codes
+##### 2xx: Successful
 
 200 - OK
 202 - Accepted
@@ -60,13 +60,13 @@ Client compares Certificate from website with list of known CAs. If CA is unknow
 205 - Reset Content
 206 - Partial Content
 
-#####3xx: Redirection
+##### 3xx: Redirection
 
 301 - moved Permanently
 303 - moved temporarily
 304 - Not Modified?
 
-#####4xx: Client Error
+##### 4xx: Client Error
 
 400 - Bad Request
 401 - Unauthorised
@@ -75,7 +75,7 @@ Client compares Certificate from website with list of known CAs. If CA is unknow
 405 - Method not Allowed
 409 - Conflict
 
-#####5xx: Server Error
+##### 5xx: Server Error
 
 501 - Not Implemented
 504 - Service Unavailable 
