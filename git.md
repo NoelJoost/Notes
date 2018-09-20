@@ -31,7 +31,18 @@ push files
 
 `git push`
 
-
 shows all branches
 
 `git branch`
+
+create a branch
+
+``git checkout -b "name"``
+
+change branch
+
+`git checkout "name"`
+
+delete a branch 
+
+``git branch -d "name"``
