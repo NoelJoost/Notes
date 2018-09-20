@@ -47,6 +47,6 @@ delete a branch
 
 ``git branch -d "name"``
 
-update branches on GitHub
+push new branch to Github
 
 `git push --set-upstream origin "name"`
