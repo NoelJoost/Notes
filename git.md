@@ -30,3 +30,8 @@ commit files
 push files
 
 `git push`
+
+
+shows all branches
+
+`git branch`
